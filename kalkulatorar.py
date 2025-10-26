@@ -24,7 +24,7 @@ while i < len(rumus):
     simbol = rumus[i]
     
     i += 1
-    if i < len(rumus) and rumus[i].islower:
+    if i < len(rumus) and rumus[i].islower():
         simbol += rumus[i]
         i += 1
     
